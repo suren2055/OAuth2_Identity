@@ -8,10 +8,12 @@
 
     <ItemGroup>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.1" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
+      <ProjectReference Include="..\OAuth2_Identity.Core\OAuth2_Identity.Core.csproj" />
+      <ProjectReference Include="..\OAuth2_Identity.Models\OAuth2_Identity.Models.csproj" />
     </ItemGroup>
 
 </Project>
