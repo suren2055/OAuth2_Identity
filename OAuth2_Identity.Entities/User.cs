@@ -14,8 +14,5 @@ public class User : EntityBase
     public string Salt { get; set; }
     [DefaultValue("false")] public bool Terminated { get; set; }
     [DefaultValue("false")] public bool TwoFactorEnabled { get; set; }
-
-    public bool? IsAdProvider { get; set; }
-        
-    public bool? IsAdReceiver { get; set; }
+    
 }
