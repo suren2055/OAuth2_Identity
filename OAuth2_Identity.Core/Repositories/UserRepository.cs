@@ -5,9 +5,9 @@ namespace OAuth2_Identity.Core.Repositories;
 
 public class UserRepository : RepositoryBase<User>, IUserRepository
 {
-    private readonly CoreDBContext _context;
+    private readonly EFDBContext _context;
 
-    public UserRepository(CoreDBContext context) : base(context)
+    public UserRepository(EFDBContext context) : base(context)
     {
         _context = context;
     }

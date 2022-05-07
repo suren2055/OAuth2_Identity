@@ -7,13 +7,13 @@ public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : 
 {
     #region Variables
 
-    public readonly CoreDBContext _context;
+    public readonly EFDBContext _context;
 
     #endregion
 
     #region Constructor
 
-    public RepositoryBase(CoreDBContext context)
+    public RepositoryBase(EFDBContext context)
     {
         _context = context;
     }

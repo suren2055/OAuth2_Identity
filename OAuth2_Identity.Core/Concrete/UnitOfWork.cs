@@ -22,7 +22,7 @@ namespace OAuth2_Identity.Core.Concrete;
         /// <summary>
         /// The DbContext.
         /// </summary>
-        private CoreDBContext _context;
+        private EFDBContext _context;
 
         #endregion
 
@@ -32,7 +32,7 @@ namespace OAuth2_Identity.Core.Concrete;
         /// Initializes a new instance of the UnitOfWork class.
         /// </summary>
         /// <param name="context">The object context</param>
-        public UnitOfWork(CoreDBContext context)
+        public UnitOfWork(EFDBContext context)
         {
             _context = context;
         }

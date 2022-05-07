@@ -12,6 +12,8 @@ public class User : EntityBase
     public string Username { get; set; }
     public string Hash { get; set; }
     public string Salt { get; set; }
+    
+    public string UserSecret { get; set; }
     [DefaultValue("false")] public bool Terminated { get; set; }
     [DefaultValue("false")] public bool TwoFactorEnabled { get; set; }
     

@@ -12,7 +12,7 @@ using OAuth2_Identity.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<CoreDBContext>();
+builder.Services.AddDbContext<EFDBContext>();
 builder.Services.AddAuthentication(option =>
 {
     option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

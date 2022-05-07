@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "OAuth2_Identity.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OAuth2_Identity.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OAuth2_Identity.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OAuth2_Identity.Entities/1.0.0": {
+      "type": "project",
+      "path": "../OAuth2_Identity.Entities/OAuth2_Identity.Entities.csproj",
+      "msbuildProject": "../OAuth2_Identity.Entities/OAuth2_Identity.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "OAuth2_Identity.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/surenarakelyan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/OAuth2_Identity.Resources.Entities.csproj",
+      "projectName": "OAuth2_Identity.Resources.Entities",
+      "projectPath": "/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/OAuth2_Identity.Resources.Entities.csproj",
+      "packagesPath": "/Users/surenarakelyan/.nuget/packages/",
+      "outputPath": "/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/surenarakelyan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Entities/OAuth2_Identity.Entities.csproj": {
+              "projectPath": "/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Entities/OAuth2_Identity.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

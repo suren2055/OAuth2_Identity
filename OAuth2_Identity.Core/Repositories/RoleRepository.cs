@@ -4,9 +4,9 @@ namespace OAuth2_Identity.Core.Repositories;
 
 public class RoleRepository : RepositoryBase<Role>, IRoleRepository
 {
-    private readonly CoreDBContext _context;
+    private readonly EFDBContext _context;
 
-    public RoleRepository(CoreDBContext context) : base(context)
+    public RoleRepository(EFDBContext context) : base(context)
     {
         _context = context;
     }
