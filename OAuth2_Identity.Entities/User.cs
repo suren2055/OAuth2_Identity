@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace OAuth2_Identity.Entities;
@@ -13,7 +14,7 @@ public class User : EntityBase
     public string Hash { get; set; }
     public string Salt { get; set; }
     
-    public string UserSecret { get; set; }
+    public Guid UserSecret { get; set; }
     [DefaultValue("false")] public bool Terminated { get; set; }
     [DefaultValue("false")] public bool TwoFactorEnabled { get; set; }
     

@@ -1,3 +1,5 @@
+using OAuth2_Identity.Proxy;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -12,6 +14,7 @@ if (app.Environment.IsDevelopment())
 {
     
 }
+app.UseMiddleware<ReverseProxyMiddleware>();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

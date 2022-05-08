@@ -27,8 +27,6 @@ public class ReverseProxyMiddleware
             }
 
             using var _httpClient = new HttpClient();
-           
-           
             var targetRequestMessage = CreateTargetMessage(context, targetUri);
             if (!string.IsNullOrWhiteSpace(authorization))
                 targetRequestMessage.Headers.Add("Authorization",authorization);
@@ -100,10 +98,10 @@ public class ReverseProxyMiddleware
         Uri targetUri = null;
 
         if (request.Path.StartsWithSegments("/proxy/identity", out var identityPath))
-            targetUri = new Uri($"{_configuration.GetSection("Settings:OAuthServices:Identity").Value}/Connect/Token" + identityPath);
+            targetUri = new Uri($"{_configuration.GetSection("Settings:OAuthServices:Identity").Value}/Connect" + identityPath);
         
-        else if (request.Path.StartsWithSegments("/proxy/resources", out var loanPath))
-            targetUri = new Uri($"{_configuration.GetSection("Settings:OAuthServices:Resource").Value}/Resource/Get" + loanPath);
+        else if (request.Path.StartsWithSegments("/proxy/resources", out var resourcePath))
+            targetUri = new Uri($"{_configuration.GetSection("Settings:OAuthServices:Resource").Value}" + resourcePath);
         
         return targetUri;
     }

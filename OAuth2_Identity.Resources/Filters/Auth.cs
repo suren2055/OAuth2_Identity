@@ -10,7 +10,7 @@ public class Auth : Attribute, IAuthorizationFilter
 {
     public void OnAuthorization(AuthorizationFilterContext context)
     {
-        var user = context.HttpContext.Items["User"];
+        var user = context.HttpContext.Items["sub"];
         if (user == null)
         {
             context.Result = new JsonResult(new ApiResponse<string>

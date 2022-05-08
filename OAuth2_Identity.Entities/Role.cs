@@ -1,6 +1,6 @@
 using OAuth2_Identity.Entities;
 
-namespace OAuth2_Identity.Core.Repositories;
+namespace OAuth2_Identity.Entities;
 
 public class Role : EntityBase
 {

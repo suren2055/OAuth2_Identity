@@ -4,14 +4,14 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using OAuth2_Identity.Models;
 
-namespace OAuth2_Identity.Middlewares;
-public class JwtManager
+namespace OAuth2_Identity.Helpers;
+public class JwtHelper
 {
-    public string Generate(string secretKey, UserRequestDTO user)
+    public static string Generate(string secretKey, UserRequestDTO user)
     {
-        var tokenHendler = new JwtSecurityTokenHandler();
+        var tokenHandler = new JwtSecurityTokenHandler();
         var key = Encoding.ASCII.GetBytes(secretKey);
-        var tokenDsecriptor = new SecurityTokenDescriptor
+        var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = new ClaimsIdentity(new Claim[]
             {
@@ -22,7 +22,7 @@ public class JwtManager
             SigningCredentials =
                 new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
         };
-        var token = tokenHendler.CreateToken(tokenDsecriptor);
-        return "Bearer " + tokenHendler.WriteToken(token);
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+        return tokenHandler.WriteToken(token);
     }
 }

@@ -5,7 +5,7 @@ namespace OAuth2_Identity.Resources.Core.Concrete;
 
 public class EFDBContext : DbContext
 {
-    public DbSet<Product> Type { get; set; }
+    public DbSet<Product> Products { get; set; }
     
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

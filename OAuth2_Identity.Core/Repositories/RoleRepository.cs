@@ -1,4 +1,5 @@
 using OAuth2_Identity.Core.Concrete;
+using OAuth2_Identity.Entities;
 
 namespace OAuth2_Identity.Core.Repositories;
 

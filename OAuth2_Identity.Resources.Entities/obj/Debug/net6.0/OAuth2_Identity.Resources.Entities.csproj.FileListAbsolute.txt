@@ -1,0 +1,15 @@
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/bin/Debug/net6.0/OAuth2_Identity.Resources.Entities.deps.json
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/bin/Debug/net6.0/OAuth2_Identity.Resources.Entities.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/bin/Debug/net6.0/ref/OAuth2_Identity.Resources.Entities.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/bin/Debug/net6.0/OAuth2_Identity.Resources.Entities.pdb
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/bin/Debug/net6.0/OAuth2_Identity.Entities.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/bin/Debug/net6.0/OAuth2_Identity.Entities.pdb
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/obj/Debug/net6.0/OAuth2_Identity.Resources.Entities.csproj.AssemblyReference.cache
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/obj/Debug/net6.0/OAuth2_Identity.Resources.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/obj/Debug/net6.0/OAuth2_Identity.Resources.Entities.AssemblyInfoInputs.cache
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/obj/Debug/net6.0/OAuth2_Identity.Resources.Entities.AssemblyInfo.cs
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/obj/Debug/net6.0/OAuth2_Identity.Resources.Entities.csproj.CoreCompileInputs.cache
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/obj/Debug/net6.0/OAuth2_Identity.Resources.Entities.csproj.CopyComplete
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/obj/Debug/net6.0/OAuth2_Identity.Resources.Entities.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/obj/Debug/net6.0/ref/OAuth2_Identity.Resources.Entities.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Entities/obj/Debug/net6.0/OAuth2_Identity.Resources.Entities.pdb

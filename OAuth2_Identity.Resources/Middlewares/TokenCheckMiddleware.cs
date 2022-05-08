@@ -40,8 +40,8 @@ public class TokenCheckMiddleware
 
             var jwtToken = (JwtSecurityToken)validatedToken;
             // attach user to context on successful jwt validation
-            context.Items["nameid"] = jwtToken.Claims.First(x => x.Type == "nameid").Value;
-            context.Items["unique_name"] = jwtToken.Claims.First(x => x.Type == "unique_name").Value;
+            context.Items["sub"] = jwtToken.Claims.First(x => x.Type == "sub").Value;
+            context.Items["email"] = jwtToken.Claims.First(x => x.Type == "email").Value;
         }
         catch (Exception ex)
         {

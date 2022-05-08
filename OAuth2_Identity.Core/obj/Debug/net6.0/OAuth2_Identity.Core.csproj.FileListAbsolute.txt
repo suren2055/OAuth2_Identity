@@ -1,0 +1,17 @@
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/bin/Debug/net6.0/OAuth2_Identity.Core.deps.json
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/bin/Debug/net6.0/OAuth2_Identity.Core.runtimeconfig.json
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/bin/Debug/net6.0/OAuth2_Identity.Core.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/bin/Debug/net6.0/ref/OAuth2_Identity.Core.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/bin/Debug/net6.0/OAuth2_Identity.Core.pdb
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/bin/Debug/net6.0/OAuth2_Identity.Entities.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/bin/Debug/net6.0/OAuth2_Identity.Entities.pdb
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/obj/Debug/net6.0/OAuth2_Identity.Core.csproj.AssemblyReference.cache
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/obj/Debug/net6.0/OAuth2_Identity.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/obj/Debug/net6.0/OAuth2_Identity.Core.AssemblyInfoInputs.cache
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/obj/Debug/net6.0/OAuth2_Identity.Core.AssemblyInfo.cs
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/obj/Debug/net6.0/OAuth2_Identity.Core.csproj.CoreCompileInputs.cache
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/obj/Debug/net6.0/OAuth2_Identity.Core.csproj.CopyComplete
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/obj/Debug/net6.0/OAuth2_Identity.Core.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/obj/Debug/net6.0/ref/OAuth2_Identity.Core.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/obj/Debug/net6.0/OAuth2_Identity.Core.pdb
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Core/obj/Debug/net6.0/OAuth2_Identity.Core.genruntimeconfig.cache

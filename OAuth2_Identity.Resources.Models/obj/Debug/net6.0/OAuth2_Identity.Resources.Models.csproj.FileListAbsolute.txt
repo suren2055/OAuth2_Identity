@@ -1,0 +1,12 @@
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/bin/Debug/net6.0/OAuth2_Identity.Resources.Models.deps.json
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/bin/Debug/net6.0/OAuth2_Identity.Resources.Models.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/bin/Debug/net6.0/ref/OAuth2_Identity.Resources.Models.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/bin/Debug/net6.0/OAuth2_Identity.Resources.Models.pdb
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/obj/Debug/net6.0/OAuth2_Identity.Resources.Models.csproj.AssemblyReference.cache
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/obj/Debug/net6.0/OAuth2_Identity.Resources.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/obj/Debug/net6.0/OAuth2_Identity.Resources.Models.AssemblyInfoInputs.cache
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/obj/Debug/net6.0/OAuth2_Identity.Resources.Models.AssemblyInfo.cs
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/obj/Debug/net6.0/OAuth2_Identity.Resources.Models.csproj.CoreCompileInputs.cache
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/obj/Debug/net6.0/OAuth2_Identity.Resources.Models.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/obj/Debug/net6.0/ref/OAuth2_Identity.Resources.Models.dll
+/Users/surenarakelyan/Desktop/OAuth2_Identity/OAuth2_Identity.Resources.Models/obj/Debug/net6.0/OAuth2_Identity.Resources.Models.pdb

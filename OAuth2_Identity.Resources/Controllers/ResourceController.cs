@@ -1,22 +1,26 @@
 using Microsoft.AspNetCore.Mvc;
 using OAuth2_Identity.Recourses.Filters;
+using OAuth2_Identity.Resources.Core.Concrete;
 
 namespace OAuth2_Identity.Recourses.Controllers;
 
 [Auth]
 [ApiController]
-[Route("api/[controller]")]
+[Route("[controller]")]
 public class ResourceController : Controller
 {
-    [HttpGet("GET")]
-    public IActionResult Get()
+    private readonly EFDBContext _context;
+
+    public ResourceController(EFDBContext context)
     {
-        return Ok("Success from resource");
+        _context = context;
     }
+
+    
 
     [HttpGet("GetAllProducts")]
     public IActionResult GetAllProducts()
     {
-        return null;
+        return Ok(_context.Products.ToList());
     }
 }

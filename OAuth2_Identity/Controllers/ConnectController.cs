@@ -6,25 +6,32 @@ using OAuth2_Identity.Models;
 namespace OAuth2_Identity.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
-public class UserController : Controller
+[Route("[controller]")]
+public class ConnectController : Controller
 {
     private readonly IUserService _userService;
     private readonly IUnitOfWork _uow;
 
-    public UserController(IUserService userService, IUnitOfWork uow)
+    public ConnectController(IUserService userService, IUnitOfWork uow)
     {
         _userService = userService;
         _uow = uow;
     }
 
-    [HttpPost("Authenticate")]
-    public IActionResult Authenticate([FromBody] UserRequestDTO model)
+    [HttpPost("UserToken")]
+    public IActionResult UserToken([FromBody] UserRequestDTO model)
     {
-        var response = _userService.Authenticate(model);
+        var response = _userService.AuthenticateUser(model);
         return response.ResponseCode == 0 ? Ok(response) : BadRequest(response);
     }
 
+    [HttpPost("ClientToken")]
+    public IActionResult ClientToken([FromBody] ClientRequestDTO model)
+    {
+        var response = _userService.AuthenticateClient(model);
+        return response.ResponseCode == 0 ? Ok(response) : BadRequest(response);
+    }
+    
     [HttpPost("Register")]
     public IActionResult Register([FromBody] UserRequestDTO model)
     {

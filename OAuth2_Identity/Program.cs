@@ -5,8 +5,9 @@ using Microsoft.OpenApi.Models;
 using OAuth2_Identity.Authentication;
 using OAuth2_Identity.Core.Concrete;
 using OAuth2_Identity.Core.Repositories;
+using OAuth2_Identity.Entities;
 using OAuth2_Identity.Filters;
-using OAuth2_Identity.Middlewares;
+using OAuth2_Identity.Helpers;
 using OAuth2_Identity.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,22 +36,11 @@ builder.Services.AddTransient<IUserService, UserService>();
 //Repositories
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 //Swagger
-builder.Services.AddSwaggerGen(options =>
-{
-    options.SwaggerDoc("v1", new OpenApiInfo {Title = "OAuth2_Identity", Version = "v1"});
-    options.OperationFilter<AddAuthHeaderOperationFilter>();
-    options.AddSecurityDefinition("bearer", new OpenApiSecurityScheme
-    {
-        Description = "JWT Authorization header using the bearer scheme.\"Bearer {token}\"",
-        Name = "Authorization",
-        In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "bearer",
-        BearerFormat = "JWT"
-    });
-});
+builder.Services.AddSwaggerGen();
+
 
 builder.Services.AddControllers(options =>
 {
@@ -68,9 +58,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
-
-app.UseMiddleware<JwtMiddleware>();
 
 app.UseHttpsRedirection();
 
